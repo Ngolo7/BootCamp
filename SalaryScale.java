@@ -3,21 +3,21 @@ import javax.lang.model.element.Name;
 public class SalaryScale {
     public static void main(String[] args) {
 
-        Scale EmployeeObj1 = new Scale();
-        Scale EmployeeObj2 = new Scale();
-        Scale EmployeeObj3 = new Scale();
-        Scale EmployeeObj4 = new Scale();
-        Scale EmployeeObj5 = new Scale();
+        Scale employeeObj1 = new Scale();
+        Scale employeeObj2 = new Scale();
+        Scale employeeObj3 = new Scale();
+        Scale employeeObj4 = new Scale();
+        Scale employeeObj5 = new Scale();
 
-        EmployeeObj1.setEmployee("Sandy", 60000);
-        EmployeeObj2.setEmployee("Yangchen", 45000);
-        EmployeeObj3.setEmployee("Suresh", 50000);
-        EmployeeObj4.setEmployee("Dawa", 19500);
-        EmployeeObj5.setEmployee("Unknown",0);
+        employeeObj1.setEmployee("Sandy", 60000);
+        employeeObj2.setEmployee("Yangchen", 45000);
+        employeeObj3.setEmployee("Suresh", 50000);
+        employeeObj4.setEmployee("Dawa", 19500);
+        employeeObj5.setEmployee("Unknown",0);
 
 
 
-        //EmployeeObj.SalaryScale();
+        //employeeObj.SalaryScale();
 
 
 
@@ -38,7 +38,7 @@ class Scale {
         System.out.println("----------------------");
     }
 
-    char SalaryScale() {
+    char salaryScale() {
         if (YourSalary <= 0)
             System.out.println("Invalid salary");
 
