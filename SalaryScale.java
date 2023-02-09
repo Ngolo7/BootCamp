@@ -34,7 +34,7 @@ class Scale {
        YourSalary = s;
         System.out.println("Name of the Employee is :"+name);
         System.out.println(name+ "salary is :" +s);
-        SalaryScale();
+        salaryScale();
         System.out.println("----------------------");
     }
 
