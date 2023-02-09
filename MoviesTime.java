@@ -16,6 +16,11 @@ public class MoviesTime {
         }
     }
 
+//overload functions can de done by
+//1. with number of argumnets
+//2. arguments type
+//3. sequence arguments
+
     class Movie{
         void watchMovie(){
             System.out.println(" Watching movie :");
